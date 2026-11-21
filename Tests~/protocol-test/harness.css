@@ -1,0 +1,4 @@
+body { font: 14px system-ui, sans-serif; margin: 16px; background: #10142a; color: #e8ecff; }
+.buttons { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; align-items: center; }
+button { padding: 6px 10px; }
+pre { background: #0a0d1c; padding: 8px; max-height: 50vh; overflow: auto; }
