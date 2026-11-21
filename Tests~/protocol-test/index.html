@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fantosia protocol test</title>
+    <link rel="stylesheet" href="harness.css">
+  </head>
+  <body>
+    <h1>Fantosia protocol test (v1)</h1>
+    <p id="status">Loading…</p>
+    <div class="buttons">
+      <button data-action="start">run:start</button>
+      <button data-action="end">run:end (score below)</button>
+      <button data-action="endTwice">run:end twice</button>
+      <button data-action="score">run:score (score below)</button>
+      <button data-action="error">error</button>
+      <button data-action="oldVersion">ready with version 0</button>
+      <label>Score <input id="score" type="number" min="0" step="1" value="200"></label>
+    </div>
+    <pre id="log"></pre>
+    <script src="harness.js"></script>
+  </body>
+</html>

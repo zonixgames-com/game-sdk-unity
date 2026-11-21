@@ -106,3 +106,11 @@ The page reacts to the first `ready`, `run:start` and `run:end` only, and never 
 `run:end` without a `run:started` before it. There is no answer to `run:end`.
 
 A change an existing build would misread gets a new protocol version and a new major SDK version.
+
+## Protocol test page
+
+`Tests~/protocol-test/` (ignored by Unity) is a test game that speaks the protocol by hand, with
+buttons and `window.protocolTest` for automated tests: start a run, end it with a chosen score,
+end it twice, send `run:score`, `error`, or a `ready` with an old version. It is served on the
+development games host only, to test the platform without a Unity build.
+
