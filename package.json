@@ -1,0 +1,8 @@
+{
+  "name": "com.fantosia.games-sdk",
+  "version": "1.0.0",
+  "displayName": "Fantosia Games SDK",
+  "description": "Connects a Unity WebGL game to the Fantosia platform: games protocol version 1 (ready, run:start, run:end). No network, no token, nothing about the player.",
+  "unity": "6000.0",
+  "author": { "name": "Fantosia" }
+}
